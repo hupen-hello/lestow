@@ -2,7 +2,7 @@ import React from 'react';
 
 const B2BSection = () => {
   return (
-    <section className="w-full bg-[#333333] py-16 px-6 md:px-27 font-sans overflow-hidden">
+    <section className="w-full bg-[#333333] py-10 px-6 md:px-27 font-sans overflow-hidden">
       <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between gap-12 md:gap-20">
         
         <div className="relative w-full md:w-1/2 max-w-[500px] pt-8 flex-shrink-0">

@@ -3,7 +3,7 @@ import React from 'react';
 
 const TopBar = () => {
   return (
-    <div className="w-full bg-[#2c2c2c] py-3 px-6 md:px-27 flex items-center justify-between">
+    <div className="w-full bg-[#2c2c2c] py-3 px-6 md:px-27 flex items-center justify-center">
       
       {/* 1. Logo Section */}
       <div className="flex-shrink-0 cursor-pointer">

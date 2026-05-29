@@ -5,49 +5,49 @@ const ServicesSection = () => {
   const servicesData = [
     {
       title: 'Developer',
-      icon: '/icons/developer.png', // Placeholder path
+      icon: '/1.jpg',  
       items: ['Web Designer', 'Python', 'PhP', 'Wordpress', 'Drupal', 'Artificial Intelligence', 'Blockchain'],
       viewMore: true,
     },
     {
       title: 'IT Services',
-      icon: '/icons/it-services.png',
+      icon: '/3.jpg',
       items: ['System Integration', 'ERP', 'salesforce', 'Cloud Consulting', 'AWS', 'Cyber Security'],
       viewMore: false,
     },
     {
       title: 'App Developer',
-      icon: '/icons/app-developer.png',
+      icon: '/2.jpg',
       items: ['Iphone Developer', 'Android Developer', 'Gaming App', 'Finance App'],
       viewMore: false,
     },
     {
       title: 'Pr Agency',
-      icon: '/icons/pr-agency.png',
+      icon: '/4.jpg',
       items: ['Content Markting', 'PPC', 'Market Research', 'Digital Strategy'],
       viewMore: false,
     },
     {
       title: 'Digital Marketing',
-      icon: '/icons/digital-marketing.png',
+      icon: '/5.jpg',
       items: ['Seo Agency', 'SMO Agency', 'Email Marketing', 'What App Marketing'],
       viewMore: false,
     },
     {
       title: 'Services',
-      icon: '/icons/services.png',
+      icon: '/6.jpg',
       items: ['BPO', 'Call Center', 'Out Bond Call Center', 'Accounting Services', 'Data Entry', 'Travel Agency', 'Event Management'],
       viewMore: true,
     },
     {
       title: 'Design',
-      icon: '/icons/design.png',
+      icon: '/7.jpg',
       items: ['Graphic Design', 'Video Editor'],
       viewMore: false,
     },
     {
       title: 'Traders',
-      icon: '/icons/traders.png',
+      icon: '/8.jpg',
       items: ['Electrical', 'Mechanical', 'Ro'],
       viewMore: false,
     },
@@ -61,7 +61,7 @@ const ServicesSection = () => {
   );
 
   return (
-    <section className="w-full bg-black py-20 px-6 md:px-27 font-sans">
+    <section className="w-full bg-black py-10 px-6 md:px-27 font-sans">
       <div className="max-w-[1400px] mx-auto">
         
         {/* Section Header */}

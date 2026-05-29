@@ -17,7 +17,7 @@ const Footer = () => {
     <footer className="w-full font-sans mt-auto">
       
       {/* Main Footer Section (Dark Background) */}
-      <div className="bg-[#333333] py-16 px-6 md:px-27">
+      <div className="bg-[#333333] py-10 px-6 md:px-27">
         <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           
           {/* Logo & Info Column */}
@@ -25,7 +25,7 @@ const Footer = () => {
              <img 
                 src="/logo (1).png"  
                 alt="Lestow Logo" 
-                className="h-14 w-auto mb-6  p-1 rounded" 
+                className="h-20 w-auto mb-6  p-1 rounded" 
              />
              <a href="mailto:info@lestow.com" className="text-gray-400 hover:text-white text-sm transition-colors">
                info@lestow.com
@@ -52,7 +52,7 @@ const Footer = () => {
 
           {/* Service Providers Column */}
           <div>
-            <h3 className="text-white text-lg font-semibold mb-6">Service Providers</h3>
+            <h3 className="text-white text-lg font-semibold mb-4">Service Providers</h3>
             <ul>
               <FooterLink text="Web Designers" />
               <FooterLink text="App Developers" />
@@ -69,7 +69,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Copyright Bar (Red Background) */}
-      <div className="bg-[#c61c23] py-3 px-6 md:px-12 border-t border-red-800">
+      <div className="bg-[#c61c23] py-1 px-6 md:px-12 border-t border-red-800">
         <div className="max-w-[1200px] mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           
           {/* Copyright Text */}

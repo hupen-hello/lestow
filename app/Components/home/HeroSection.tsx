@@ -5,7 +5,7 @@ import React from 'react';
 const HeroSection = () => {
   return (
     <section 
-      className="w-full min-h-[380px] bg-[#1a1a1a] bg-no-repeat bg-cover bg-center flex items-center relative overflow-hidden px-6 md:px-12 lg:px-26"
+      className="w-full min-h-[380px] bg-[#1a1a1a] bg-no-repeat bg-cover bg-center flex items-center relative overflow-hidden px-6 md:px-12 lg:px-26 "
       style={{ backgroundImage: `url('/bg-hero.webp')` }}
     >
       {/* 3. Left Content Area - Text & Search */}

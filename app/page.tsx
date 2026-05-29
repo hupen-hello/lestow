@@ -1,5 +1,5 @@
 import B2BSection from "./Components/home/B2BSection";
-import Footer from "./Components/home/Footer";
+import BlogSection from "./Components/home/BlogSection";
 import HeroSection from "./Components/home/HeroSection";
 import ProcessSection from "./Components/home/ProcessSection";
 import SeoTags from "./Components/home/SeoTags";
@@ -13,9 +13,10 @@ export default function Home() {
       <ProcessSection/>
       <ServicesSection/>
       <TopCompaniesSection/>
+      <BlogSection/>
       <B2BSection/>
       <SeoTags/>
-      <Footer/>
+      
     </div>
   );
 }

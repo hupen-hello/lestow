@@ -51,7 +51,7 @@ const TopCompaniesSection = () => {
   const activeCompanies = companiesData[activeTab] || [];
 
   return (
-    <section className="w-full py-16 bg-[#fbfbfb] font-sans">
+    <section className="w-full py-10 bg-[#fbfbfb] font-sans">
       <div className="max-w-[1400px] mx-auto px-6 md:px-27">
         
         {/* Header Title */}
