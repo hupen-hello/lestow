@@ -1,10 +1,10 @@
-import B2BSection from "./components/home/B2BSection";
-import Footer from "./components/home/Footer";
-import HeroSection from "./components/home/HeroSection";
-import ProcessSection from "./components/home/ProcessSection";
-import SeoTags from "./components/home/SeoTags";
-import ServicesSection from "./components/home/ServicesSection";
-import TopCompaniesSection from "./components/home/TopCompaniesSection";
+import B2BSection from "./Components/home/B2BSection";
+import Footer from "./Components/home/Footer";
+import HeroSection from "./Components/home/HeroSection";
+import ProcessSection from "./Components/home/ProcessSection";
+import SeoTags from "./Components/home/SeoTags";
+import ServicesSection from "./Components/home/ServicesSection";
+import TopCompaniesSection from "./Components/home/TopCompaniesSection";
 
 export default function Home() {
   return (
